@@ -38,6 +38,7 @@ Aliases, like their bash and shell cousins, are text-substituted variables for s
   ci = commit
   br = branch
   co = checkout
+  hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --date=short
 ```
 
 == What are some other useful Git configurations?
