@@ -450,11 +450,18 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="listingblock">
 <div class="content">
 <pre class="highlight"><code>[core]
+        repositoryformatversion = 0
+        filemode = true
+        bare = false
+        logallrefupdates = true
         ignorecase = true
+        precomposeunicode = true
 [remote "origin"]
         url = git@github.com:nielubowicz/gitconfig.git
+        fetch = +refs/heads/*:refs/remotes/origin/*
 [branch "master"]
-        remote = origin</code></pre>
+        remote = origin
+        merge = refs/heads/master</code></pre>
 </div>
 </div>
 </div>
@@ -507,7 +514,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2015-01-06 15:34:04 EST
+Last updated 2015-01-06 16:02:16 EST
 </div>
 </div>
 </body>
