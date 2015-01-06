@@ -18,18 +18,11 @@ Your user's gitconfig file, found at `~/.gitconfig`, controls the configuration 
 Same as above, except found in your local repo (`~/Code/this-is-a-repo/.gitconfig`), it only applies to this specific repo. This config file contains the URL for your repo as other relevant options.
 ```
 [core]
-        repositoryformatversion = 0
-        filemode = true
-        bare = false
-        logallrefupdates = true
         ignorecase = true
-        precomposeunicode = true
 [remote "origin"]
         url = git@github.com:nielubowicz/gitconfig.git
-        fetch = +refs/heads/*:refs/remotes/origin/*
 [branch "master"]
         remote = origin
-        merge = refs/heads/master
 ```
 
 == How to create aliases and shortcuts
