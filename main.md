@@ -51,5 +51,5 @@ Sets global color for git commands.
 help.autocorrect
 [15:06:55]~/Code/gitconfig (master ✘)✭ ᐅ git config --global help.autocorrect 1
 ```
-If you mistype a command, git normally gives you a "Did you mean ...?" prompt. If you set `help.autocorrect` to 1, git will automagically run the intended command. Could be a good idea.
+If you mistype a command, git normally gives you a "Did you mean ...?" prompt. If you set `help.autocorrect` to 1, git will automagically run the intended command.
 
